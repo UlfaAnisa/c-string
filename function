@@ -1,0 +1,41 @@
+#include <iostream>
+using namespace std;
+
+//Deklarasi function dengan parameter
+int tambah(int a, int b){ 
+ return a+b;
+}
+
+int main(){
+ int x = 5, y = 7, hasil;
+ 
+ //memanggil function tambah dan menyimpan hasilnya ke dalam variabel hasil
+ hasil = tambah(x, y);
+ 
+ //menampilkan hasil
+ cout << "Hasil penjumlahan " << x << " dan " << y<< " adalah " << hasil << endl;
+ 
+ return 0;
+ }
+ 
+ 
+ MEMBUAT FUNCTION LUAS LINGKARAN
+ 
+ #include <iostream>
+ #include <cmath>
+ using namespace std;
+ 
+ double luaslingkaran(double r){
+  double pi = M_PI;
+  returm pi*r*r;
+ }
+ 
+ int main(){
+  double r;
+  
+  cin >> r;
+  
+  cout << "Luas Lingkaran : " << luaslingkaran(r);
+  
+  return 0;
+ }
